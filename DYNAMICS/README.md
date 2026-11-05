@@ -16,7 +16,7 @@ Codes for the dynamics of the random-matrix ensembles, of the disordered XXZ cha
 ## Requirements
 
 - C compiler (e.g. `gcc`)
-- LAPACK/BLAS (routine `dsyevd` for the full diagonalization), e.g. "liblapack", "libopenblas"
+- LAPACK/BLAS (routine `dsyevd` for the full diagonalization), e.g. `liblapack`, `libopenblas`
 
 ## Compilation
 
