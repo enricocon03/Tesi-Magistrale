@@ -10,7 +10,7 @@
 #include "../STATICS/include/random.h"
 #include "../STATICS/include/utils.h"
 
-static inline double xlogx(double p) { return (p > 0.0) ? p * log(p) : 0.0; }
+static inline double xlogx(double p) { return (p > 0.0) ? p * log(p) : 0.0; } 
 static inline double safe_sqrt_var(double var) { return sqrt(var > 0.0 ? var : 0.0); }
 
 #define L 10
