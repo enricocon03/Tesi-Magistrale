@@ -25,7 +25,7 @@ int main(int argc, char **argv)
     const unsigned long int seed1=(unsigned long int) time(NULL); 
     const unsigned long int seed2=seed1+127;
 
-    // initialize lib/random.c, use myrand() to generate a random number uniformly distributed in in [0,1) 
+    // initialize lib/random.c, use myrand() to generate a random number uniformly distributed in [0,1) 
     myrand_init(seed1, seed2);
 
     unsigned int a, A, i, itemp, j, n;
@@ -146,7 +146,7 @@ int main(int argc, char **argv)
 
                 double p_n_plus  = H_plus[IDX(i,n,N)]  * H_plus[IDX(i,n,N)];
                 double p_n_minus = H_minus[IDX(i,n,N)] * H_minus[IDX(i,n,N)];
-                s1_a += (xlogx(p_n_plus) - xlogx(p_n_minus)) / (2.0*delta_h) / log((double)N);
+                s1_a += (xlogx(p_n_plus) - xlogx(p_n_minus)) / (2.0*delta_h) / (double)L;
             }
         }
         r_a /= (double) n_count;
