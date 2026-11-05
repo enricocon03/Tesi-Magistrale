@@ -17,7 +17,7 @@ All quantities are computed on the middle third of the spectrum of each disorder
 ## Requirements
 
 - C compiler (e.g. `gcc`)
-- LAPACK/BLAS (routine `dsyevd` for the full diagonalization), e.g. "liblapack", "libopenblas"
+- LAPACK/BLAS (routine `dsyevd` for the full diagonalization), e.g. `liblapack`, `libopenblas`
 
 ## Compilation
 
