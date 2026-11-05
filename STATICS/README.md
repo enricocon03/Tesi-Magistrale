@@ -8,7 +8,7 @@ Codes for the static properties (eigenvalues and eigenvectors) of the random-mat
 |------|-------|--------|
 | `GOE.c` | Gaussian Orthogonal Ensemble | adjacent gap ratio `r`, participation entropy `S`, Kullback-Leibler divergence `KL`, inverse participation ratio `IPR` |
 | `XXZ.c` | Disordered XXZ chain (zero-magnetization sector) | `r`, `S`, `-ds/dh`, `KL`, `IPR` as a function of the disorder h and/or of J_z |
-| `RP.c` | Rosenzweig-Porter ensemble | `r`, `S`, `-ds/dh`, `KL`, `IPR` as a function of \gamma |
+| `RP.c` | Rosenzweig-Porter ensemble | `r`, `S`, `-ds/d\gamma`, `KL`, `IPR` as a function of \gamma |
 | `XXZ_pdf_r.c` | Disordered XXZ chain | probability distribution `p(r)` of the adjacent gap ratio |
 | `RP_pdf_r.c` | Rosenzweig-Porter ensemble | probability distribution `p(r)` of the adjacent gap ratio |
 
