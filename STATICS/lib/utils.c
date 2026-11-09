@@ -20,7 +20,7 @@ void buildH_XXZ_sym(double *H, const int8_t *basis, const double Jx, const doubl
 {
 	// Build XXZ Hamiltonian in the S^z_tot = 0 symmetry sector
     memset(H, 0, N*N*sizeof(double));
-    int i, n, ipp, exc, mask, jb, jb2;
+    int i, n, ipp, exc, mask, jb;
     int8_t s_i, s_ipp;
     double *h_site = malloc(L* sizeof(double));
     for(i=0; i<L; i++) h_site[i] = h * u[i];
