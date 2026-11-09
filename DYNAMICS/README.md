@@ -21,7 +21,7 @@ Codes for the dynamics of the random-matrix ensembles, of the disordered XXZ cha
 ## Compilation
 
 ```bash
-gcc -O3 -o XXZ XXZ.c lib/pcg32min.c lib/random.c lib/boxmuller.c lib/utils.c -llapack -lopenblas -lm
+gcc -O3 -o XXZ XXZ.c lib/pcg32min.c lib/random.c lib/boxmuller.c lib/utils.c -llapacke -lopenblas -lm
 ```
 (similar for the other files; adapt the flags to your system).
 
