@@ -22,7 +22,7 @@ All quantities are computed on the middle third of the spectrum of each disorder
 ## Compilation
 
 ```bash
-gcc -O3 -o XXZ XXZ.c lib/pcg32min.c lib/random.c lib/boxmuller.c lib/utils.c -llapack -lopenblas -lm
+gcc -O3 -o XXZ XXZ.c lib/pcg32min.c lib/random.c lib/boxmuller.c lib/utils.c -llapacke -lopenblas -lm
 ```
 (similar for the other files; adapt the flags to your system).
 
